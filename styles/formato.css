@@ -1,0 +1,25 @@
+/*
+"Estas etiquetas comparten las mismas propiedades. Cualquier otra etiqueta h2 tendrá las mismas características"
+*/
+h1,h2.especial{
+	text-align:center;
+	text-decoration: underline;
+}
+
+p{
+	text-align:right;
+	color:blue;
+}
+
+*{
+	font-family:verdana;
+}
+p#rusia,p#iran{
+	border:1px dotted black;
+}
+span.bombo{
+	color:orange;
+	font-weight:bold;
+	text-decoration:underline;
+	
+}
